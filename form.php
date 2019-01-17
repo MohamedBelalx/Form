@@ -8,8 +8,6 @@
                   $phone = filter_var($_POST['phone'],FILTER_SANITIZE_NUMBER_INT);
                   $msg = filter_var($_POST['mess'],FILTER_SANITIZE_STRING);
 				  
-				  echo $name;
-
                   /* Array of error */
 
                   $errors = array();
