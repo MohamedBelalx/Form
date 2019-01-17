@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+/* Strat Form */
+
+.container{
+	position: relative;
+	top: 150px;
+}
+
+.reg{
+	max-width:500px;
+	margin:30px auto;
+}
+.reg input{
+	padding-left:30px;
+}
+.reg input,
+.reg textarea{
+	margin-bottom: 10px;
+}
+.container div h2{
+	font-family: 'Pacifico', cursive;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+.reg i{
+	height:0px;
+	float: left;
+	position: relative;
+	top:-36px;
+	left: 10px;
+	color:#777;
+}
+
+.er{
+	text-transform: capitalize;
+}
+.custom-alert{
+	padding: 5px 10px;
+	text-transform:capitalize;
+	display:none;
+	opacity: .7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End-Form */
